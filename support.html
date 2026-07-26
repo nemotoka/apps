@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート / Support — ハーモノグラフ / Harmonograph</title>
+<style>
+  :root {
+    --text: #2b2b33;
+    --sub: #6b6b76;
+    --line: #e3e3ea;
+    --accent: #3a5a8c;
+    --bg: #fafafc;
+    --card: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.8;
+    padding: 24px 16px 48px;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .home { font-size: 0.9rem; margin-bottom: 20px; }
+  a { color: var(--accent); }
+  h1 { font-size: 1.35rem; margin-bottom: 4px; }
+  .lead { color: var(--sub); font-size: 0.9rem; margin-bottom: 24px; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 40px 0 16px;
+    padding: 8px 12px;
+    background: #eef1f6;
+    border-radius: 8px;
+  }
+  .qa {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+  }
+  .qa h3 { font-size: 0.98rem; margin-bottom: 8px; }
+  .qa h3::before { content: "Q. "; color: var(--accent); }
+  .qa p { font-size: 0.95rem; margin-bottom: 6px; }
+  .qa p::before { content: "A. "; color: var(--sub); font-weight: bold; }
+  .qa p + p::before { content: ""; }
+  .contact {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    font-size: 0.95rem;
+  }
+  .divider { border: none; border-top: 1px solid var(--line); margin: 40px 0; }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--sub);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="home"><a href="index.html">&larr; トップに戻る / Back to Home</a></p>
+
+  <h1>サポート / Support</h1>
+  <p class="lead">アプリ: ハーモノグラフ / Harmonograph（開発者: chubbyjon）</p>
+
+  <!-- ===================== 日本語 ===================== -->
+  <h2>よくあるご質問（日本語）</h2>
+
+  <div class="qa">
+    <h3>気に入った模様を保存するには？</h3>
+    <p>模様が描かれているとき（または描き終わったあと）に「保存」ボタンを押すと、名前を付けてギャラリーに保存できます。保存した模様はいつでもギャラリーから見返せます。</p>
+  </div>
+
+  <div class="qa">
+    <h3>模様をiPhoneの壁紙にするには？</h3>
+    <p>「壁紙にする」ボタンを押すと、背景のテーマ（5種類）を選ぶ画面が開きます。テーマを選んで「この壁紙を保存」を押すと、iPhoneの画面サイズの画像として写真に保存されます。そのあと、iPhoneの「設定」→「壁紙」から、保存した画像を壁紙に設定してください。</p>
+  </div>
+
+  <div class="qa">
+    <h3>壁紙を保存しようとしたら「写真への追加」の許可を求められました</h3>
+    <p>初回の保存時に、iOSの「写真への追加」許可ダイアログが表示されます。「許可」を選ぶと写真に保存されます。許可しなかった場合、保存は行われません。後から許可するには、iPhoneの「設定」→「アプリ」→「ハーモノグラフ」→「写真」で許可してください。</p>
+  </div>
+
+  <div class="qa">
+    <h3>同じ模様をもう一度出すことはできますか？</h3>
+    <p>描かれる模様は毎回わずかに異なるパラメータで生成される一点物のため、同じ模様が再び現れることはありません。気に入った模様は、その場でギャラリーに保存してください。保存した作品はいつでも見返せます。</p>
+  </div>
+
+  <div class="qa">
+    <h3>オフラインでも使えますか？広告はなぜ表示されるのですか？</h3>
+    <p>アプリ本体はオフラインで動作します（通信を使うのは広告の表示のみです）。本アプリは無料で提供するため、画面下部のバナー広告と、壁紙保存時の全画面広告を表示しています。ご了承ください。</p>
+  </div>
+
+  <div class="qa">
+    <h3>保存した作品のデータはどこにありますか？アプリを削除するとどうなりますか？</h3>
+    <p>作品データはお使いの端末の中にのみ保存されています（外部への送信はありません）。アプリを削除すると作品データも消えますのでご注意ください。壁紙として書き出した画像は「写真」に残ります。</p>
+  </div>
+
+  <div class="contact">
+    <strong>お問い合わせ</strong><br>
+    上記で解決しない場合は、メールでお問い合わせください。数日以内の返信を心がけています。<br>
+    メール: chubbyjon.apps@gmail.com
+  </div>
+
+  <hr class="divider">
+
+  <!-- ===================== English ===================== -->
+  <h2 lang="en">Frequently Asked Questions (English)</h2>
+
+  <div lang="en">
+  <div class="qa">
+    <h3>How do I save a pattern I like?</h3>
+    <p>While a pattern is being drawn (or after it finishes), tap the Save button to name it and add it to your gallery. You can revisit saved patterns anytime.</p>
+  </div>
+
+  <div class="qa">
+    <h3>How do I set a pattern as my iPhone wallpaper?</h3>
+    <p>Tap the Wallpaper button to open a panel where you can choose from five background themes. Pick a theme and tap the Save button, and an iPhone-sized image will be saved to your Photos. Then go to Settings &gt; Wallpaper on your iPhone and choose the saved image.</p>
+  </div>
+
+  <div class="qa">
+    <h3>The app asked for permission to add photos when saving a wallpaper</h3>
+    <p>The first time you save a wallpaper, iOS shows a permission dialog asking to allow the app to add photos. Choose Allow and the image will be saved to your Photos. If you do not allow it, nothing is saved. You can grant the permission later in Settings &gt; Apps &gt; Harmonograph &gt; Photos.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Can I see the same pattern again?</h3>
+    <p>Each pattern is generated with slightly different parameters every time, so the same pattern never appears twice. If you like what you see, save it to your gallery right away — saved artworks can be viewed anytime.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Does the app work offline? Why does it show ads?</h3>
+    <p>The app itself works offline; the network is used only to display ads. The app is free, supported by a small banner ad at the bottom of the screen and an occasional full-screen ad when saving wallpapers. Thank you for your understanding.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Where is my artwork data stored? What happens if I delete the app?</h3>
+    <p>Your artwork data is stored only on your device and is never sent anywhere. Please note that deleting the app also deletes your saved artworks. Wallpaper images you exported remain in your Photos.</p>
+  </div>
+
+  <div class="contact">
+    <strong>Contact</strong><br>
+    If your question is not answered above, please email us. We aim to reply within a few days.<br>
+    Email: chubbyjon.apps@gmail.com
+  </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 chubbyjon</p>
+  </footer>
+</main>
+</body>
+</html>
